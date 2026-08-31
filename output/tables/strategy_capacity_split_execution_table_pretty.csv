@@ -1,0 +1,5 @@
+execution_assumption,daily_adv_participation,rebalance_count,time_series_p05_capacity_krw,time_series_p10_capacity_krw,time_series_median_capacity_krw,time_series_min_capacity_krw
+1일 체결,5%,96,12.33억 원,16.52억 원,64.85억 원,2.72억 원
+3일 분할 체결,5%,96,36.98억 원,49.55억 원,194.54억 원,8.16억 원
+1일 체결,10%,96,24.66억 원,33.03억 원,129.70억 원,5.44억 원
+3일 분할 체결,10%,96,73.97억 원,99.09억 원,389.09억 원,16.33억 원

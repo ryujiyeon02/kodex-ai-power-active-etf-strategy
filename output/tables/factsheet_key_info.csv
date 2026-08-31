@@ -1,0 +1,15 @@
+﻿item,value
+Factsheet date,2026-05-06
+Strategy,Consensus Active MVO
+Benchmark,iSelect AI전력핵심설비 지수
+Universe,KODEX AI전력핵심설비 ETF KRX PDF constituents
+Rebalancing,Weekly
+Factor score,"Equal-weighted EPS revision 1M, target upside, rating point"
+MVO TE budget,20% ex-ante annualized
+Max stock weight,50%
+One-way turnover limit,30%
+Average one-way turnover (all dates),4.71%
+Average one-way turnover (rebalance dates),21.71%
+Average total traded weight (rebalance dates),43.41%
+Trading cost impact,-6.14%p
+Fund fee/expense impact,-0.80%p

@@ -1,0 +1,15 @@
+﻿item,value,unit,comment
+current_code_base_slippage_bp_each_buy_sell,3.0,bp of traded value,cost_utils.py base scenario
+latest_strategy_weighted_half_tick_spread_bp,4.016567834992835,bp,latest holdings weighted by final strategy weight
+latest_pdf_weighted_half_tick_spread_bp,5.870709614444235,bp,latest holdings weighted by PDF weight
+rebalance_trade_weighted_half_spread_bp_mean,6.090705981529521,bp or count,tick half-spread diagnostic from rebalances
+rebalance_trade_weighted_half_spread_bp_median,5.932953153036169,bp or count,tick half-spread diagnostic from rebalances
+rebalance_trade_weighted_half_spread_bp_p75,6.819030059021755,bp or count,tick half-spread diagnostic from rebalances
+rebalance_trade_weighted_half_spread_bp_max,9.12507030913509,bp or count,tick half-spread diagnostic from rebalances
+rebalance_dates,96.0,bp or count,tick half-spread diagnostic from rebalances
+etf_obs,448.0,bp/count/KRW,"ETF market price vs NAV, not underlying stock execution slippage"
+etf_median_abs_premium_discount_bp,13.344600152804809,bp/count/KRW,"ETF market price vs NAV, not underlying stock execution slippage"
+etf_mean_abs_premium_discount_bp,17.131103798169924,bp/count/KRW,"ETF market price vs NAV, not underlying stock execution slippage"
+etf_p95_abs_premium_discount_bp,39.18924740366102,bp/count/KRW,"ETF market price vs NAV, not underlying stock execution slippage"
+etf_latest_premium_discount_bp,-37.389000033556385,bp/count/KRW,"ETF market price vs NAV, not underlying stock execution slippage"
+etf_median_etf_trading_value_krw,27402335647.5,bp/count/KRW,"ETF market price vs NAV, not underlying stock execution slippage"

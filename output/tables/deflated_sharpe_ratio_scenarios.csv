@@ -1,0 +1,5 @@
+﻿scenario,trial_count,used_as_main,basis,deflated_sharpe_ratio,sample_sharpe_ann_for_dsr,expected_max_sharpe_ann,skewness,kurtosis,z_value
+core_candidate_set,3,False,"MVO 적용 전 단순 점수 틸트, MVO 적용 전 공격형 점수 틸트, 최종 Consensus Active MVO의 3개 핵심 후보만 trial로 간주",0.9892764788102787,2.3638090055136844,0.6393842876255178,0.25059477634885496,4.388844193004218,2.300020787420005
+unique_return_paths_current,10,False,"MVO 적용 전 2개 후보와, 최종 robustness 표에서 성과 경로가 실제로 다른 8개 MVO 경로를 합산",0.9427432631913875,2.3638090055136844,1.1805442135291002,0.25059477634885496,4.388844193004218,1.5782269822249497
+reported_spec_rows_conservative,15,True,"MVO 적용 전 2개 후보와, 발표/README에 남긴 robustness 설정 13개 행을 모두 trial로 간주. 동일 경로 중복도 포함하므로 보수적",0.9165359016171228,2.3638090055136844,1.3275578011339786,0.25059477634885496,4.388844193004218,1.3821416999758578
+broad_stress_legacy,26,False,이전 실험 과정에서 검토했던 더 넓은 후보 수를 stress trial count로 사용. 현재 본문 전략 선택 기준은 아니며 민감도 점검용,0.8726667772151859,2.3638090055136844,1.5097856242241685,0.25059477634885496,4.388844193004218,1.1390880155755196

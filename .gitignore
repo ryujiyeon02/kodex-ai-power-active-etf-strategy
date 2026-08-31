@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+~$*
+.vscode/
+.claude/
+.codex/
+.cache/
+output/**/*.tmp
+
+# Licensed/original research inputs stay local.
+input/*
+!input/README.md
