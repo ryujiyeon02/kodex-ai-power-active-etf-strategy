@@ -1,4 +1,20 @@
-# KODEX AI전력핵심설비 액티브 ETF 전략 -(26-1 개인프로젝트)
+# KODEX AI전력핵심설비 액티브 ETF 전략 (2026-1 개인 프로젝트)
+
+## 핵심 결과물
+
+[팩트시트 PDF 원본 보기](docs/AI전력핵심설비액티브factsheet.pdf) · [최종 발표자료 PPTX 다운로드](presentations/KODEX_AI_Power_Consensus_Active_Allocation_Strategy.pptx)
+
+[![AI전력핵심설비 액티브 ETF 팩트시트 1면](docs/assets/factsheet-01.png)](docs/AI전력핵심설비액티브factsheet.pdf)
+
+[![AI전력핵심설비 액티브 ETF 팩트시트 2면](docs/assets/factsheet-02.png)](docs/AI전력핵심설비액티브factsheet.pdf)
+
+## 프로젝트에서 수행한 일
+
+- KRX 실제 PDF의 편입 종목과 비중을 수집하고, 당일 수익률에 전일 비중을 적용해 미래정보 편향을 차단한 복제 벤치마크를 구현했습니다.
+- EPS revision 1M, 목표주가 괴리율, 투자의견을 표준화해 `ConsensusScore`를 만들고 주간 rank IC로 신호의 유효성을 검증했습니다.
+- 단순 비중 틸트를 benchmark-relative MVO로 확장해 tracking error, 종목별 비중, turnover 제약 안에서 액티브 비중을 산출했습니다.
+- 거래비용과 동적 슬리피지, 20일 ADV 기반 capacity, block bootstrap 및 Monte Carlo 경로 강건성까지 점검했습니다.
+- 분석 결과를 운용 관점의 팩트시트와 최종 발표자료로 직접 구성했습니다.
 
 `0503~0508`과 `0511~0515` 폴더의 AI전력핵심설비 ETF 프로젝트를 정리한 repo입니다.
 
@@ -19,13 +35,13 @@ KODEX AI전력핵심설비 ETF의 실제 PDF 구성종목을 투자 가능 유�
 | 경로 | 내용 |
 | --- | --- |
 | `notebooks/` | 전략 실험과 발표용 분석 노트북. `0503~0508`의 핵심 노트북 두 개를 포함했습니다. |
-| `presentations/` | ETF 복제/개선 전략 PPT와 `0511~0515/0515.pptx` 발표자료. |
+| `presentations/` | ETF 복제/개선 전략 PPT와 최종 컨센서스 액티브 배분 발표자료. |
 | `src/` | PDF 복제, 패널 생성, 팩터 검증, active MVO, 비용/슬리피지, capacity, factsheet 산출 코드. |
 | `input/` | 로컬 원본 데이터 배치 방법. 원본 파일 자체는 공개하지 않습니다. |
 | `sample_data/` | 공개 가능한 합성 입력 스키마와 예시. |
 | `output/charts/` | 발표와 README에 필요한 선별 차트. |
 | `output/tables/` | 최종 성과, 비용, capacity, IC, holdings, robustness 표. |
-| `docs/` | factsheet 초안, 투자 제안, CIO 관점 권고, compliance note, feedback 문서. |
+| `docs/` | 완성된 팩트시트 PDF와 README 미리보기 이미지, factsheet 초안, 투자 제안, CIO 관점 권고, compliance note, feedback 문서. |
 
 `0511~0515` 안에는 AI전력핵심설비 ETF 관련 PPT와 factsheet가 있었고, `.ipynb` 파일은 보이지 않아 노트북은 `0503~0508`의 KODEX AI전력핵심설비 노트북을 함께 정리했습니다.
 
